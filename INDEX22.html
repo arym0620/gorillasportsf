@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto - GORILLA SPORTS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0fff0a;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #0fff0a;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-info, .contact-form {
+            margin-top: 40px;
+        }
+        .contact-info p, .contact-form p {
+            font-size: 16px;
+            color: #555;
+        }
+        .contact-info address, .contact-info a {
+            color: #333;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            color: #ff6347;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff6347;
+        }
+        footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: -257px;
+    left: -3px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>GORILLA SPORTS</h1>
+           <nav>
+        <ul>
+            <li><a href="indexprincipal1.html">Inicio</a></li> 
+            <li><a href="INDEX3.html">Quiénes Somos</a></li>
+            <li><a href="INDEX5.html">Servicios</a></li>
+            <li><a href="INDEX4.html">Ubicación</a></li>
+	    <li><a href="INDEX22.html">Contactos</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Main Content -->
+<div class="container">
+        <h2>Contacto</h2>
+
+        <!-- Información de contacto -->
+        <div class="contact-info">
+            <h3>¿Dónde estamos?</h3>
+            <p>Estamos ubicados en Anahuac, listos para ayudarte a alcanzar tus objetivos de fitness.</p>
+            <address>
+                <strong>Gimnasio GORILLA SPORTS</strong><br>
+                Calle 23 y Francisco Villa, Cuauhtemoc Chihuahua, Mexico<br>
+                Teléfono: <a href="tel:+6251209066">+6251209066</a><br>
+                Correo electrónico: <a href="mailto:gorillasportsgym@gmail.com">gorillasportsgym@gmail.com</a>
+            </address>
+        </div>
+
+        <!-- Formulario de contacto -->
+  <div class="contact-form">
+            <h3>Envíanos un mensaje</h3>
+    <form action="mailto:contacto@gimnasioxyz.com" method="post" enctype="text/plain">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+      <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje..." required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 GORILLA SPORTS. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
